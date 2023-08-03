@@ -30,7 +30,14 @@ Here are the steps to recreate this project:
    
     "db:migrate": "ts-node ./migrator.ts"
 
-   
+5. Add '.env' file at project root, add the following:
+- DB_CONNECTION
+- DB_USERNAME
+- DB_PASSWORD
+- DB_HOST
+- DB_PORT
+- DB_DATABASE
+
 ## Scripts to use for migrations:
 1. **pnpm run db:generate** = generate the models from 'src/db/schema' folder
 2. **pnpm run db:migrate** = push the generated models to the database
