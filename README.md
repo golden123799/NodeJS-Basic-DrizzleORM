@@ -30,7 +30,7 @@ Here are the steps to recreate this project:
 
    
 ## Scripts to use for migrations:
-1. **db:generate** = generate the models from 'src/db/schema' folder
-2. **db:migrate** = push the generated models to the database
+1. **pnpm run db:generate** = generate the models from 'src/db/schema' folder
+2. **pnpm run db:migrate** = push the generated models to the database
 
 
