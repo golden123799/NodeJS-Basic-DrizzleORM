@@ -13,9 +13,11 @@ Here are the steps to recreate this project:
 
 ## Steps:
 1. Create 'drizzle.config.ts' file and copy the code from the repo (Notice the 'schema' and 'out')
+
 **Note**: schema = the target schema folder, the schema folder will contain database table schema
+
 **Note**: out = the target output folder
 
-2. Create 'migrator.ts' file and copy the code from the repo (Notice the 'migrationFolder')
-3. Create a folder for migrator.ts to be pointed to
+3. Create 'migrator.ts' file and copy the code from the repo (Notice the 'migrationFolder')
+4. Create a folder for migrator.ts to be pointed to
 **Note**: Migration folder contain meta data for changes in the database.
