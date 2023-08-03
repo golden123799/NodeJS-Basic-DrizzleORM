@@ -25,7 +25,9 @@ Here are the steps to recreate this project:
 **Note**: Migration folder contain meta data for changes in the database.
 
 4. Add these lines to 'package.json' file under "scripts"
+   
     "db:generate": "drizzle-kit generate:pg",
+   
     "db:migrate": "ts-node ./migrator.ts"
 
    
