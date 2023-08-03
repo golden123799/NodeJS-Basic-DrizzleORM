@@ -23,3 +23,14 @@ Here are the steps to recreate this project:
 3. Create a folder for migrator.ts to be pointed to
 
 **Note**: Migration folder contain meta data for changes in the database.
+
+4. Add these lines to 'package.json' file under "scripts"
+    "db:generate": "drizzle-kit generate:pg",
+    "db:migrate": "ts-node ./migrator.ts"
+
+   
+## Scripts to use for migrations:
+1. **db:generate** = generate the models from 'src/db/schema' folder
+2. **db:migrate** = push the generated models to the database
+
+
