@@ -30,7 +30,7 @@ Here are the steps to recreate this project:
    
     "db:migrate": "ts-node ./migrator.ts"
 
-5. Add '.env' file at project root, add the following:
+5. Add '.env' file at project root, add the following variable:
 - DB_CONNECTION
 - DB_USERNAME
 - DB_PASSWORD
